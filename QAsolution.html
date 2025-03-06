@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>QAsolution</title>
+</head>
+
+<body class="centralized-container">
+    <div class="section">
+        <span class="title">Introduction:</span>
+        <div class="content">
+        <span>
+            Test mapping document done in <input type="date" class="intro-date">,
+            over the app "<input type="text" class="intro-project ms-1">", originated in
+            <input type="url" class="intro-origin ms-1">
+        </span>
+            <button class="intro-edit">edit</button>
+            <button class="intro-clear">clear</button>
+            <textarea class="intro-text">Description of the context.</textarea>
+        </div>
+    </div>
+    <div class="section">
+        <span class="subtitle">Description:</span>
+        <div class="content">
+            <button class="desc-edit">edit</button>
+            <button class="desc-clear">clear</button>
+            <textarea class="desc-text">Description of the context.</textarea>
+        </div>
+        <div class="subtitle">
+            <span class="subtitle">Assigned Team:</span>
+            <button class="team-add border-2 font-bold me-2">add</button>
+            <button class="team-edit border-2 font-bold me-2">edit</button>
+            <button class="team-remove border-2 font-bold">remove</button>
+            <ul>
+                <li> Name (Company Contact) </li>
+            </ul>
+        </div>
+        <div class="subtitle">
+            <span class="subtitle">Quality Analist:</span>
+            <button class="qa-add border-2 font-bold me-2">add</button>
+            <button class="qa-edit border-2 font-bold me-2">edit</button>
+            <button class="qa-remove border-2 font-bold">remove</button>
+            <ul>
+                <li> Name (Company Contact) </li>
+            </ul>
+        </div>
+        <div class="subtitle">
+            <span class="subtitle">Tester:</span>
+            <button class="tester-add border-2 font-bold me-2">add</button>
+            <button class="tester-edit border-2 font-bold me-2">edit</button>
+            <button class="tester-remove border-2 font-bold">remove</button>
+            <ul>
+                <li> Name (Company Contact) </li>
+            </ul>
+        </div>
+        <div class="subtitle">
+            <span class="subtitle">Documentation:</span>
+            <button class="documentation-add border-2 font-bold me-2">add</button>
+            <button class="documentation-edit border-2 font-bold me-2">edit</button>
+            <button class="documentation-remove border-2 font-bold">remove</button>
+            <ul>
+                <li> Name (Company Contact) </li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <span class="title">Context</span>
+        <div class="content">
+            <button class="context-edit">edit</button>
+            <button class="context-clear">clear</button>
+            <textarea class="context-text">Description of the context.</textarea>
+        </div>
+    </div>
+    <div class="test-situation-title">
+        <span>TS1. Test Situation</span>
+        <div class="test-situation-link">
+            <a class="" href="">https://testing.this.company/</a>
+        </div>
+        <div class="test-situation-analysis">
+            chart goes here
+        </div>
+        <div class="test-situation-step">
+            <span class="subtitle">TS1.1</span>
+            <div class="test-situation-step-details">
+                <span class="subtitle-content">Details</span>
+                <span class="subtitle-content">Description</span>
+                <span class="subtitle-content">Effort</span>
+                <span class="subtitle-content">Impact</span>
+            </div>
+        </div>
+    </div>
+
+</html>
